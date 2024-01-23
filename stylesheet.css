@@ -42,7 +42,6 @@ img {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 /*-------------------------------------------
@@ -97,7 +96,7 @@ items
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 #items .item {
     width: 49%;
@@ -136,19 +135,30 @@ detail
     justify-content: space-between;
     padding-left: 40px;
 }
+#detail .text a:hover {
+    opacity: 0.7;
+}
+
 
 /*-------------------------------------------
 footer
 -------------------------------------------*/
 #footer {
     font-size: 0.625rem;
-    padding: 10px 0;
+    padding: 10px 0 14px;
     text-align: center;
 }
 
 /* レスポンシブ・ブレークポイント1024px
 ------------------------------- */
 @media screen and (max-width: 1024px) {
+    .inner-wrapper {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
     #header {
         padding: 0 10px;
     }
